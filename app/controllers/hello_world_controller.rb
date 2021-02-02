@@ -6,4 +6,7 @@ class HelloWorldController < ApplicationController
   def index
     @hello_world_props = { name: "Stranger" }
   end
+
+  # 多分こっちでpropsに本の名前とかいちいち代入して渡せばわんちゃん
 end
+
